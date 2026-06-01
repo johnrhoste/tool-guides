@@ -32,3 +32,6 @@
 | nikto        	| nikto -h <target_IP>                      	| Basic nikto scan.                                                                                                   	|
 | nikto        	| nikto -h <target_IP> -p 80,8000,8080      	| Scan multiple ports on one target.                                                                                  	|
 | nikto / nmap 	| nmap -p80 <target_IP> -oG - \| nikto -h - 	| One way to combine nmap and nikto. The "-og" flag makes the nmap output in format that is able to be read by nikto. 	|
+| wpscan 	| wpscan --url <target_domain> --enumerate t  	| Determine WordPress theme. 	|
+| wpscan 	| wpscan --url <target_domain> --enumerate p  	| Find WordPress plugins.    	|
+| wpscan 	| wpscan --url <target_domain> --enumerate u  	| Enumerate users.           	|
