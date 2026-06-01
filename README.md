@@ -1,2 +1,2 @@
 # tool-guides
-Cheat sheets &amp; guides for various tools.
+Quick reference &amp; general guides for various tools.
