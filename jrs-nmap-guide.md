@@ -15,3 +15,9 @@
 | Nmap  	| –O                     	| remote OS detection                                                                                                    	| Analyzes slight variations in how a target's TCP/IP stack responds to specific network packets to fingerprint and identify the remote operating system.                                                  	|
 | Nmap  	| –A                     	| Aggressive scan                                                                                                        	| Combines OS detection, version detection, script scanning, and traceroute into a single powerful command to gather as much detailed intelligence as possible in one go.                                  	|
 | Nmap  	|  –Pn                   	| port scan only<br>no host discovery [aka "no ping"]                                                                    	| This command foregoes host discovery and will assume all hosts are online. This is useful if the host appears offline. Highly effective against targets protected by firewalls that block ICMP requests. 	|
+
+Additional notes:
+• TCP SYN scan (-sS) requires root privileges to craft raw packets and is the default scan for privileged users.
+
+
+
