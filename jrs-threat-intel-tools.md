@@ -1,5 +1,6 @@
-| Urlscan.io                 	| Automate the process of browsing and crawling through websites to record activities and interactions. Scan results include HTTP connections, redirects, outgoing links, cookies, and all IPs associated with the site. 	|
+| Resource                	| Details 	|
 |----------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Urlscan.io                 	| Automate the process of browsing and crawling through websites to record activities and interactions. Scan results include HTTP connections, redirects, outgoing links, cookies, and all IPs associated with the site. 	|
 | Abuse.ch                   	| Several platforms under one project: Malware Bazaar, Feodo Tracker, SSL Blacklist, URL Haus, and Threat Fox.                                                                                                           	|
 | Malware Bazaar             	| Malware samples.                                                                                                                                                                                                       	|
 | Feodo Tracker              	| Track botnet C2 infrastructure (Emotet, Dridex, Trickbot).                                                                                                                                                             	|
